@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>paypalx-gae-toolkit-fork</groupId>
+	<artifactId>paypalx-gae-toolkit-fork</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>PayPal Adaptive Api</name>
+	<description>PayPal </description>
+
+	<organization>
+		<name>Arcbees.com</name>
+		<url>http://arcbees.com</url>
+	</organization>
+
+	<scm>
+		<connection>git@github.com:branflake2267/paypalx-gae-toolkit-fork.git</connection>
+		<developerConnection>branflake2267</developerConnection>
+		<tag>Paypal</tag>
+		<url>https://git@github.com/branflake2267/paypalx-gae-toolkit-fork.git</url>
+	</scm>
+
+    <!-- ./mvn -DaltDeploymentRepository=snapshot-repo::default::file:../BranflakeMavenRepo/snapshots/ clean deploy -->
+	<!-- Directions for github maven repo: http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/ -->
+	<distributionManagement>
+		<repository>
+			<id>repo</id>
+			<url>https://github.com/branflake2267/BranflakeMavenRepo/raw/master/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshot-repo</id>
+			<url>https://github.com/branflake2267/BranflakeMavenRepo/raw/master/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+</project>
