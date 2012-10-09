@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.vectomatic</groupId>
+  <artifactId>lib-gwt-svg</artifactId>
+  <versioning>
+    <versions>
+      <version>0.5.7-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20121009004551</lastUpdated>
+  </versioning>
+</metadata>
